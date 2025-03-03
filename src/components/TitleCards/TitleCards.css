@@ -1,0 +1,37 @@
+.titlecards{
+    margin-top:  50px;
+    margin-bottom: 30px;
+    
+}
+.titlecards h2{
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.card-list{
+    display:flex;
+    gap: 15px;
+    overflow-x: auto;
+    margin-left:30px;
+}
+.card-list::-webkit-scrollbar{
+    display:none;
+}
+.card-list img{
+    width: 240px;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-top:60px;
+
+}
+.card-list .card{
+    position: relative;
+}
+.card-list .card p{
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    text-decoration: none;
+    color: #fff;
+
+}
